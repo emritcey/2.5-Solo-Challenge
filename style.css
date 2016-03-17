@@ -5,6 +5,11 @@ body {
 	font-family: Veranda, Geneva, serif;
 }
 
+p#opening {
+	text-align: center;
+	font-style: italic;
+}
+
 h1#pagetitle {
 	position: absolute;
 	top: 20%;
