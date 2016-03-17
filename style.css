@@ -5,9 +5,10 @@ body {
 }
 
 img {
-	width: 95%;
-	align-items: center;
+	width: 99%;
+	align: center;
 	margin-top: 1%;
+	border: 5px solid black;
 }
 
 h1#pagetitle {
