@@ -14,7 +14,7 @@ h1#pagetitle {
 	font-variant: small-caps;
 }
 
-img {
+img#main {
 	width: 95%;
 	margin: auto;
 	margin-top: 1%;
@@ -46,7 +46,16 @@ h2.sectiontitles {
 	border-radius: 20px;
 	width: 88%;
 	height: 500px;
-
 	padding-left: 2%;
 	padding-right: 2%;
 }
+
+#placeslist {
+	list-style: none;
+}
+
+img.placesimg {
+	width: 80%;
+	border: 1px solid gray;
+}
+
