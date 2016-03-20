@@ -104,6 +104,7 @@ main.recipe {
 h1#precipe {
 	color: white;
 	font-size: 100px;
+	font-family: "Times New Roman", Georgia, serif;
 }
 
 a:link {
@@ -117,4 +118,10 @@ a:visited {
 a:hover {
 	color: limegreen;
 	font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		background-color: green; 
+	}
 }
