@@ -84,10 +84,44 @@ th, td {
 }
 
 tr:hover {
-	background-color: gray;
+	background-color: hotpink;
 }
 
 th {
 	background-color: lightgray;
 	color: gray;
+}
+
+/* RECIPE PAGE STYLING */
+
+main.recipe {
+	max-height: 5000px;
+	text-align: center;
+	background-image: url("thaipatter.jpg");
+	background-color: white;
+}
+
+h1#precipe {
+	color: white;
+	font-size: 100px;
+	font-family: "Times New Roman", Georgia, serif;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: lavender;
+}
+
+a:hover {
+	color: limegreen;
+	font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		background-color: green; 
+	}
 }
